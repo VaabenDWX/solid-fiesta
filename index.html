@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log Book — OPTCG Rulings Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rye&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="deck-bg"></div>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">UNOFFICIAL FAQ TRAINER</p>
+    <h1 class="title">The Log Book</h1>
+    <p class="subtitle">An OPTCG FAQ trainer — test your knowledge on the FAQs.</p>
+  </header>
+
+  <!-- ===== Screen 1: set picker ===== -->
+  <main class="screen" id="screenPicker">
+    <p class="picker-intro">Choose a set to study, or mix everything together.</p>
+
+    <div class="length-toggle" role="tablist" aria-label="Quiz length" id="lengthToggle">
+      <button class="length-btn" data-length="5" type="button" title="A fast gut-check — five questions to warm up.">Rookie<span>5</span></button>
+      <button class="length-btn" data-length="15" type="button" title="Enough to test a few rulings without committing the whole session.">Supernova<span>15</span></button>
+      <button class="length-btn is-active" data-length="25" type="button" title="A solid study session — the default for serious practice.">Warlord<span>25</span></button>
+      <button class="length-btn" data-length="50" type="button" title="A long haul through the set's toughest corners.">Yonko<span>50</span></button>
+      <button class="length-btn" data-length="all" type="button" title="Every ruling in the set, front to back.">Pirate King<span>All</span></button>
+    </div>
+    <p class="length-desc" id="lengthDesc">A solid study session — the default for serious practice.</p>
+
+    <div class="set-list" id="setList"><!-- populated by app.js --></div>
+    <button class="btn btn-primary btn-wide" id="randomSetBtn" type="button">🔀 Random mix (all sets)</button>
+  </main>
+
+  <!-- ===== Screen 2: quiz ===== -->
+  <main class="screen" id="screenQuiz" hidden>
+    <section class="stat-bar" aria-label="Session stats">
+      <div class="stat">
+        <span class="stat-label">Score</span>
+        <span class="stat-value" id="statScore">0 / 0</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Set</span>
+        <span class="stat-value" id="statSet">—</span>
+      </div>
+      <div class="stat stat-progress">
+        <span class="stat-label">Progress</span>
+        <div class="logpose" aria-hidden="true">
+          <div class="logpose-needle" id="logposeNeedle"></div>
+        </div>
+        <span class="stat-value" id="statProgress">1 / 1</span>
+      </div>
+    </section>
+
+    <div class="card-stage" id="cardStage"><!-- populated by app.js --></div>
+
+    <section class="controls">
+      <button class="btn btn-ghost" id="quitBtn" type="button">← Change set</button>
+      <button class="btn btn-primary" id="nextBtn" type="button" disabled>Next ruling →</button>
+    </section>
+  </main>
+
+  <!-- ===== Screen 3: results ===== -->
+  <main class="screen" id="screenResults" hidden>
+    <div class="results-card">
+      <p class="eyebrow">Voyage complete</p>
+      <p class="results-score" id="resultsScore">0 / 0</p>
+      <p class="results-line" id="resultsLine"></p>
+      <div class="results-actions">
+        <button class="btn btn-primary" id="restartBtn" type="button">↻ Restart this set</button>
+        <button class="btn btn-ghost" id="newSetBtn" type="button">Choose a different set</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="fine-print">Paraphrased from Bandai's official rules Q&amp;A and card-specific rulings PDFs, source available on each question. Not affiliated with or endorsed by Bandai. Made with the help of AI</p>
+  </footer>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
