@@ -511,7 +511,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -532,7 +532,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -553,7 +553,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -1428,7 +1428,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -1625,7 +1625,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -1667,7 +1667,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -1688,7 +1688,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they do.",
           "correct": false
         }
       ],
@@ -1822,7 +1822,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -2408,7 +2408,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -2865,7 +2865,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -3057,7 +3057,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -3128,7 +3128,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they can.",
           "correct": false
         }
       ],
@@ -3341,7 +3341,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -3664,10 +3664,10 @@ const OPTCG_DECK = {
     {
       "id": "op15-038-1",
       "cardId": "OP15-038",
-      "cardName": "It's an Order! Do Not Defy",
+      "cardName": "It's an Order! Do Not Defy Me!!!",
       "setCode": "OP15",
       "category": "Card Ruling",
-      "question": "Me!!! After I used this card's [Main] effect, the cost of my opponent's rested Character with a cost of 8 or less and 2 or more given DON!! cards that was selected as the target of the effect changed to having less than 2 given DON!! cards through other means. Will it become active during my opponent's next Refresh Phase?",
+      "question": "After I used this card's [Main] effect, the cost of my opponent's rested Character with a cost of 8 or less and 2 or more given DON!! cards that was selected as the target of the effect changed to having less than 2 given DON!! cards through other means. Will it become active during my opponent's next Refresh Phase?",
       "type": "binary",
       "answers": [
         {
@@ -3717,7 +3717,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, this Character cannot be placed at the bottom of your deck this way.",
+          "text": "No, you cannot. This Character cannot be placed at the bottom of your deck this way.",
           "correct": false
         }
       ],
@@ -4555,10 +4555,10 @@ const OPTCG_DECK = {
     {
       "id": "op15-097-1",
       "cardId": "OP15-097",
-      "cardName": "I Find It Embarrassing as a",
+      "cardName": "I Find It Embarrassing as a Human Being",
       "setCode": "OP15",
       "category": "Card Ruling",
-      "question": "Human Being Can I use this Event card's [Main] and [Trigger] effects if I have 9 cards in my trash?",
+      "question": "Can I use this Event card's [Main] and [Trigger] effects if I have 9 cards in my trash?",
       "type": "mc",
       "answers": [
         {
@@ -5191,7 +5191,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -5425,7 +5425,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this effect can activate once per instance of damage dealt.",
+          "text": "Yes, you can. This effect can activate once per instance of damage dealt.",
           "correct": false
         }
       ],
@@ -5767,7 +5767,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -5922,7 +5922,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -6106,7 +6106,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you must return a Character with a cost of 6 or less.",
+          "text": "No, you cannot. You must return a Character with a cost of 6 or less.",
           "correct": false
         }
       ],
@@ -6211,7 +6211,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -6261,7 +6261,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -6416,7 +6416,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -6592,7 +6592,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -6713,7 +6713,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -7110,7 +7110,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -7173,7 +7173,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it is not.",
           "correct": false
         }
       ],
@@ -7630,7 +7630,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -8489,7 +8489,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -8851,10 +8851,10 @@ const OPTCG_DECK = {
     {
       "id": "op12-017-1",
       "cardId": "OP12-017",
-      "cardName": "Color of Observation",
+      "cardName": "Color of Observation Haki",
       "setCode": "OP12",
       "category": "Card Ruling",
-      "question": "Haki Can I activate this [Main] effect if I have no active DON!! cards?",
+      "question": "Can I activate this [Main] effect if I have no active DON!! cards?",
       "type": "binary",
       "answers": [
         {
@@ -8872,10 +8872,10 @@ const OPTCG_DECK = {
     {
       "id": "op12-017-2",
       "cardId": "OP12-017",
-      "cardName": "Color of Observation",
+      "cardName": "Color of Observation Haki",
       "setCode": "OP12",
       "category": "Card Ruling",
-      "question": "Haki Can I activate this [Main] effect if I don't have [Silvers Rayleigh] on my field?",
+      "question": "Can I activate this [Main] effect if I don't have [Silvers Rayleigh] on my field?",
       "type": "binary",
       "answers": [
         {
@@ -8893,10 +8893,10 @@ const OPTCG_DECK = {
     {
       "id": "op12-017-3",
       "cardId": "OP12-017",
-      "cardName": "Color of Observation",
+      "cardName": "Color of Observation Haki",
       "setCode": "OP12",
       "category": "Card Ruling",
-      "question": "Haki Can I use this [Main] effect to give a DON!! card to my [Silvers Rayleigh] Character?",
+      "question": "Can I use this [Main] effect to give a DON!! card to my [Silvers Rayleigh] Character?",
       "type": "binary",
       "answers": [
         {
@@ -9248,7 +9248,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it is not.",
           "correct": false
         }
       ],
@@ -9298,7 +9298,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -9361,7 +9361,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -9600,7 +9600,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -9621,7 +9621,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -9642,7 +9642,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -10300,7 +10300,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, you do.",
           "correct": false
         }
       ],
@@ -10426,7 +10426,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they can.",
           "correct": false
         }
       ],
@@ -10752,7 +10752,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, you are.",
           "correct": false
         }
       ],
@@ -10802,7 +10802,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, you are.",
           "correct": false
         }
       ],
@@ -10894,7 +10894,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -10915,7 +10915,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -10999,7 +10999,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -11020,7 +11020,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -11062,7 +11062,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -11104,7 +11104,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -11125,7 +11125,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -11167,7 +11167,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -11345,10 +11345,10 @@ const OPTCG_DECK = {
     {
       "id": "op06-115-1",
       "cardId": "OP06-115",
-      "cardName": "You're the One Who Should",
+      "cardName": "You're the One Who Should Disappear.",
       "setCode": "OP06",
       "category": "Card Ruling",
-      "question": "Disappear. I had 0 Life cards and 0 cards in my hand when I activated this [Trigger] effect. Can I add up to 1 card from the top of my deck to the top of my Life cards?",
+      "question": "I had 0 Life cards and 0 cards in my hand when I activated this [Trigger] effect. Can I add up to 1 card from the top of my deck to the top of my Life cards?",
       "type": "binary",
       "answers": [
         {
@@ -11587,7 +11587,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -11671,7 +11671,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, this Character cannot be returned to hand by its own effect.",
+          "text": "No, you cannot. This Character cannot be returned to hand by its own effect.",
           "correct": false
         }
       ],
@@ -11765,7 +11765,7 @@ const OPTCG_DECK = {
     {
       "id": "op09-041-1",
       "cardId": "OP09-041",
-      "cardName": "Soul Franky Swing Arm",
+      "cardName": "Soul Franky Swing Arm Boxing Solid",
       "setCode": "OP09",
       "category": "Card Ruling",
       "question": "Can the [Blocker] effect of a Character that has been set as active using the [Counter] effect of this card be activated during the same battle?",
@@ -11968,7 +11968,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they will.",
           "correct": false
         }
       ],
@@ -11989,7 +11989,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they will not.",
           "correct": false
         }
       ],
@@ -12010,7 +12010,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they can.",
           "correct": false
         }
       ],
@@ -12031,7 +12031,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they are.",
           "correct": false
         }
       ],
@@ -12052,7 +12052,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -12144,7 +12144,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -12165,7 +12165,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -12265,7 +12265,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -12286,7 +12286,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -12357,7 +12357,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -12378,7 +12378,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -12504,7 +12504,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -12745,10 +12745,10 @@ const OPTCG_DECK = {
     {
       "id": "op10-010-1",
       "cardId": "OP10-010",
-      "cardName": "Chadros.Higelyges",
+      "cardName": "Chadros.Higelyges (Brownbeard)",
       "setCode": "OP10",
       "category": "Card Ruling",
-      "question": "(Brownbeard) If this Character is the only Character I have with 6000 power or more, and that 6000 power is a result of DON!! cards, can I still activate this Character's [When Attacking] effect to give this Character +1000 power?",
+      "question": "If this Character is the only Character I have with 6000 power or more, and that 6000 power is a result of DON!! cards, can I still activate this Character's [When Attacking] effect to give this Character +1000 power?",
       "type": "binary",
       "answers": [
         {
@@ -13234,7 +13234,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -13339,7 +13339,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -13410,7 +13410,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -13431,7 +13431,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -13757,7 +13757,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this effect can K.O. a Character based on its current lowered cost.",
+          "text": "Yes, you can. This effect can K.O. a Character based on its current lowered cost.",
           "correct": false
         }
       ],
@@ -13870,7 +13870,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -13954,7 +13954,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -14348,7 +14348,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -14390,7 +14390,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -14634,10 +14634,10 @@ const OPTCG_DECK = {
     {
       "id": "op11-097-1",
       "cardId": "OP11-097",
-      "cardName": "After All These Years I'm",
+      "cardName": "After All These Years I'm Losing My Edge!!!",
       "setCode": "OP11",
       "category": "Card Ruling",
-      "question": "Losing My Edge!!! During the Counter Step, I used a black Character card with a cost of 3 or less as a counter, and then activated this [Counter] effect while having 10 or more cards in my trash. In this case, can I add the black Character card with a cost of 3 or less that I just used as a counter to my hand?",
+      "question": "During the Counter Step, I used a black Character card with a cost of 3 or less as a counter, and then activated this [Counter] effect while having 10 or more cards in my trash. In this case, can I add the black Character card with a cost of 3 or less that I just used as a counter to my hand?",
       "type": "binary",
       "answers": [
         {
@@ -14655,10 +14655,10 @@ const OPTCG_DECK = {
     {
       "id": "op11-097-2",
       "cardId": "OP11-097",
-      "cardName": "After All These Years I'm",
+      "cardName": "After All These Years I'm Losing My Edge!!!",
       "setCode": "OP11",
       "category": "Card Ruling",
-      "question": "Losing My Edge!!! If I activate this [Counter] effect when I have 9 cards in my trash, can I still add a black Character card with a cost of 3 or less from my trash to my hand?",
+      "question": "If I activate this [Counter] effect when I have 9 cards in my trash, can I still add a black Character card with a cost of 3 or less from my trash to my hand?",
       "type": "binary",
       "answers": [
         {
@@ -15055,7 +15055,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15076,7 +15076,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15168,7 +15168,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15231,7 +15231,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15273,7 +15273,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may choose not to draw a card in this case.",
+          "text": "Yes, you can. You may choose not to draw a card in this case.",
           "correct": false
         }
       ],
@@ -15323,7 +15323,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15386,7 +15386,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -15428,7 +15428,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you must trash down to 5 cards regardless of your hand size.",
+          "text": "Yes, you do. You must trash down to 5 cards regardless of your hand size.",
           "correct": false
         }
       ],
@@ -15470,7 +15470,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they do.",
           "correct": false
         }
       ],
@@ -15667,7 +15667,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -15688,7 +15688,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -15709,7 +15709,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15730,7 +15730,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15772,7 +15772,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -15793,7 +15793,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15814,7 +15814,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15835,7 +15835,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15856,7 +15856,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15877,7 +15877,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, this card can play itself from the trash this way.",
+          "text": "Yes, you can. This card can play itself from the trash this way.",
           "correct": false
         }
       ],
@@ -15919,7 +15919,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -15940,7 +15940,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -16550,7 +16550,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -16718,7 +16718,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -16760,7 +16760,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -16781,7 +16781,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -16823,7 +16823,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -16844,7 +16844,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -17020,7 +17020,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -17104,7 +17104,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -17146,7 +17146,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, you do.",
           "correct": false
         }
       ],
@@ -17188,7 +17188,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you must trash at least 1 card from your hand.",
+          "text": "No, you cannot. You must trash at least 1 card from your hand.",
           "correct": false
         }
       ],
@@ -17503,7 +17503,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, you do.",
           "correct": false
         }
       ],
@@ -17545,7 +17545,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you must trash at least 1 card from your hand.",
+          "text": "No, you cannot. You must trash at least 1 card from your hand.",
           "correct": false
         }
       ],
@@ -17587,7 +17587,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -17637,7 +17637,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it is not correct.",
           "correct": false
         }
       ],
@@ -17658,7 +17658,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -17700,7 +17700,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -17721,7 +17721,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -17742,7 +17742,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -17763,7 +17763,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -17805,7 +17805,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -17847,7 +17847,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -17889,7 +17889,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -17910,7 +17910,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -17931,7 +17931,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -17952,7 +17952,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -17973,7 +17973,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -18023,7 +18023,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -18044,7 +18044,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -18065,7 +18065,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -18086,7 +18086,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -18220,7 +18220,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may choose the order between this Leader's effect and the Trigger.",
+          "text": "Yes, you can. You may choose the order between this Leader's effect and the Trigger.",
           "correct": false
         }
       ],
@@ -18658,10 +18658,10 @@ const OPTCG_DECK = {
     {
       "id": "op13-077-1",
       "cardId": "OP13-077",
-      "cardName": "Go All the Way to the",
+      "cardName": "Go All the Way to the Top!!",
       "setCode": "OP13",
       "category": "Card Ruling",
-      "question": "Top!! Can I use this [Main] effect to K.O. a Character with 5000 base power or more and a current power of 3000 or less?",
+      "question": "Can I use this [Main] effect to K.O. a Character with 5000 base power or more and a current power of 3000 or less?",
       "type": "binary",
       "answers": [
         {
@@ -18829,10 +18829,10 @@ const OPTCG_DECK = {
     {
       "id": "op13-097-1",
       "cardId": "OP13-097",
-      "cardName": "The World's Equilibrium",
+      "cardName": "The World's Equilibrium Cannot Be Maintained Forever",
       "setCode": "OP13",
       "category": "Card Ruling",
-      "question": "Cannot Be Maintained Forever Can still I use this [Main] effect to K.O. one of my opponent's Characters if I have 0 Characters on my field?",
+      "question": "Can still I use this [Main] effect to K.O. one of my opponent's Characters if I have 0 Characters on my field?",
       "type": "binary",
       "answers": [
         {
@@ -18850,10 +18850,10 @@ const OPTCG_DECK = {
     {
       "id": "op13-098-1",
       "cardId": "OP13-098",
-      "cardName": "Never Existed... in the",
+      "cardName": "Never Existed... in the First Place...",
       "setCode": "OP13",
       "category": "Card Ruling",
-      "question": "First Place... Can I use this [Main] effect to K.O. one of my opponent's Stages with a cost of 6 or less?",
+      "question": "Can I use this [Main] effect to K.O. one of my opponent's Stages with a cost of 6 or less?",
       "type": "binary",
       "answers": [
         {
@@ -18903,7 +18903,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may still activate the DON!! rest portion of the effect on its own.",
+          "text": "Yes, you can. You may still activate the DON!! rest portion of the effect on its own.",
           "correct": false
         }
       ],
@@ -19029,7 +19029,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -19050,7 +19050,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, your opponent may still play that Character regardless of your choice.",
+          "text": "Yes, they can. Your opponent may still play that Character regardless of your choice.",
           "correct": false
         }
       ],
@@ -19071,7 +19071,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -19113,7 +19113,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -19583,7 +19583,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, it will gain the full +4000 power in this case.",
+          "text": "Yes, it does. It will gain the full +4000 power in this case.",
           "correct": false
         }
       ],
@@ -19604,7 +19604,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, it will gain the full +3000 power in this case.",
+          "text": "Yes, it does. It will gain the full +3000 power in this case.",
           "correct": false
         }
       ],
@@ -19625,7 +19625,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, it will still only gain +2000 power in this case.",
+          "text": "No, it does not. It will still only gain +2000 power in this case.",
           "correct": false
         }
       ],
@@ -19780,7 +19780,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -19811,10 +19811,10 @@ const OPTCG_DECK = {
     {
       "id": "op16-057-1",
       "cardId": "OP16-057",
-      "cardName": "Captain Buggy's Our",
+      "cardName": "Captain Buggy's Our Savior!!",
       "setCode": "OP16",
       "category": "Card Ruling",
-      "question": "Savior!! If my Leader has an effect that reads \"is treated as a card with all card names, types, and attributes,\" and I only have 1 [Prisoner of Impel Down] card, can I use this card's effect to give my Leader or up to 1 Character card +4000 power during this battle?",
+      "question": "If my Leader has an effect that reads \"is treated as a card with all card names, types, and attributes,\" and I only have 1 [Prisoner of Impel Down] card, can I use this card's effect to give my Leader or up to 1 Character card +4000 power during this battle?",
       "type": "binary",
       "answers": [
         {
@@ -19843,7 +19843,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -19906,7 +19906,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -19927,7 +19927,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -19977,7 +19977,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -19998,7 +19998,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -20019,7 +20019,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they can.",
           "correct": false
         }
       ],
@@ -20702,7 +20702,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -21201,7 +21201,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -21293,7 +21293,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it will not.",
           "correct": false
         }
       ],
@@ -21482,7 +21482,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -21545,7 +21545,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, you do not.",
           "correct": false
         }
       ],
@@ -21721,7 +21721,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you must give the full amount of rested DON!! cards.",
+          "text": "No, you cannot. You must give the full amount of rested DON!! cards.",
           "correct": false
         }
       ],
@@ -21889,7 +21889,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -22015,7 +22015,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -22099,7 +22099,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -22212,7 +22212,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -22375,7 +22375,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -22519,10 +22519,10 @@ const OPTCG_DECK = {
     {
       "id": "eb02-030-1",
       "cardId": "EB02-030",
-      "cardName": "And That's When",
+      "cardName": "And That's When Somebody Makes Fun of Their Friend's Dream!!!!",
       "setCode": "EB02",
       "category": "Card Ruling",
-      "question": "Somebody Makes Fun of Their Friend's Dream!!!! During my opponent's turn, can I trash 1 card from my hand to prevent a Character I played after activating this Counter effect from being K.O.'d in battle?",
+      "question": "During my opponent's turn, can I trash 1 card from my hand to prevent a Character I played after activating this Counter effect from being K.O.'d in battle?",
       "type": "binary",
       "answers": [
         {
@@ -22572,7 +22572,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -22687,10 +22687,10 @@ const OPTCG_DECK = {
     {
       "id": "eb02-059-1",
       "cardId": "EB02-059",
-      "cardName": "Without Your Help I Can't",
+      "cardName": "Without Your Help I Can't Become the King of the Pirates!!!!",
       "setCode": "EB02",
       "category": "Card Ruling",
-      "question": "Become the King of the Pirates!!!! Can I use this [Counter] effect to play a [Sanji] with a cost of 6 or more or a [Sanji] with a color other than yellow?",
+      "question": "Can I use this [Counter] effect to play a [Sanji] with a cost of 6 or more or a [Sanji] with a color other than yellow?",
       "type": "binary",
       "answers": [
         {
@@ -22719,7 +22719,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -22908,7 +22908,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -23386,7 +23386,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -24237,7 +24237,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot attack.",
           "correct": false
         }
       ],
@@ -24363,7 +24363,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -24489,7 +24489,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -24610,7 +24610,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -24673,7 +24673,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -24849,7 +24849,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not become 6000.",
           "correct": false
         }
       ],
@@ -24985,10 +24985,10 @@ const OPTCG_DECK = {
     {
       "id": "eb03-020-1",
       "cardId": "EB03-020",
-      "cardName": "There You Are, Sore",
+      "cardName": "There You Are, Sore Loser!",
       "setCode": "EB03",
       "category": "Card Ruling",
-      "question": "Loser! Can I give +2000 power each to 2 different cards with this [Counter] effect?",
+      "question": "Can I give +2000 power each to 2 different cards with this [Counter] effect?",
       "type": "binary",
       "answers": [
         {
@@ -25398,7 +25398,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it will.",
           "correct": false
         }
       ],
@@ -25700,7 +25700,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -25721,7 +25721,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -25763,7 +25763,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -25889,7 +25889,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they do not.",
           "correct": false
         }
       ],
@@ -25994,7 +25994,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -26078,7 +26078,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -26141,7 +26141,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may choose whether to K.O. those Characters.",
+          "text": "Yes, you can. You may choose whether to K.O. those Characters.",
           "correct": false
         }
       ],
@@ -26388,7 +26388,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -26459,7 +26459,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -26509,7 +26509,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -26530,7 +26530,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -26551,7 +26551,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may choose not to draw a card from this effect.",
+          "text": "Yes, you can. You may choose not to draw a card from this effect.",
           "correct": false
         }
       ],
@@ -26601,7 +26601,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -26735,7 +26735,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -26819,7 +26819,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not become 5000.",
           "correct": false
         }
       ],
@@ -26924,7 +26924,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -26945,7 +26945,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -27008,7 +27008,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you may choose not to add the Life card either way.",
+          "text": "Yes, you can. You may choose not to add the Life card either way.",
           "correct": false
         }
       ],
@@ -27171,7 +27171,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -27355,7 +27355,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, this option cannot be chosen without a Life card to trash.",
+          "text": "No, they cannot. This option cannot be chosen without a Life card to trash.",
           "correct": false
         }
       ],
@@ -27376,7 +27376,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they cannot.",
           "correct": false
         }
       ],
@@ -27938,7 +27938,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it cannot.",
           "correct": false
         }
       ],
@@ -29205,7 +29205,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, they do not.",
           "correct": false
         }
       ],
@@ -29418,7 +29418,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, they do.",
           "correct": false
         }
       ],
@@ -29547,7 +29547,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -29568,7 +29568,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -29639,7 +29639,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -29689,7 +29689,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -29739,7 +29739,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -29760,7 +29760,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it can.",
           "correct": false
         }
       ],
@@ -29810,7 +29810,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -29957,7 +29957,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -29999,7 +29999,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, this Character cannot be K.O.'d in battle by any Character.",
+          "text": "No, it cannot. This Character cannot be K.O.'d in battle by any Character.",
           "correct": false
         }
       ],
@@ -30083,7 +30083,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it does.",
           "correct": false
         }
       ],
@@ -30104,7 +30104,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
@@ -30125,7 +30125,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it is not.",
           "correct": false
         }
       ],
@@ -30146,7 +30146,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -30485,7 +30485,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "Yes, you can.",
+          "text": "Yes, it is.",
           "correct": false
         }
       ],
@@ -30506,7 +30506,7 @@ const OPTCG_DECK = {
           "correct": true
         },
         {
-          "text": "No, you cannot.",
+          "text": "No, it does not.",
           "correct": false
         }
       ],
