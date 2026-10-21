@@ -128,10 +128,9 @@
   }
   
   function extraCardsFinder(questionText){
-	  const pattern = /(OP|EB|ST|P|PRB)\d{2}-\d{3}/gi;
-	  const matches = questionText.match(pattern) || [];
-	  console.log(matches);
-	  return Array.from(new Set(matches));
+	const pattern = /(?:(?:OP|EB|ST|PRB)\d{2}|P)-\d{3}/gi;
+	const matches = questionText.match(pattern) || [];
+	return Array.from(new Set(matches.map(m => m.toUpperCase())));
   }
   
   function openLightbox(src) {
