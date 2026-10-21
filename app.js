@@ -177,7 +177,7 @@
 	const cardDisplay = document.createElement("div");
 	cardDisplay.className = "card-display";
 	const cardSetCode = e.cardId.slice(0,-4)
-	const questionCardPath = `/Cards/${cardSetCode}/${e.cardId}.png`;
+	const questionCardPath = `Cards/${cardSetCode}/${e.cardId}.png`;
 	const questionCard = document.createElement("img");
 	questionCard.src = questionCardPath;
 	questionCard.addEventListener("click", () => openLightbox(questionCard.src));
@@ -187,7 +187,7 @@
 	questionExtraCardList.forEach(set =>{
 		if (set.toUpperCase() != e.cardId.toUpperCase()){
 			const setImg = document.createElement("img");
-			setImg.src = `/Cards/${set.slice(0,-4)}/${set}.png`;
+			setImg.src = `Cards/${set.slice(0,-4)}/${set}.png`;
 			setImg.addEventListener("click", () => openLightbox(setImg.src));
 			cardDisplay.appendChild(setImg);
 		}
