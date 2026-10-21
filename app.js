@@ -7,10 +7,10 @@
     queue: [],
     total: 0,
     current: null,
-    hasAnswered: false,
     score: 0,
     answered: 0,
     setLabel: "",
+    currentSetCode: null,
     quizLength: 25,
   };
 
@@ -122,15 +122,42 @@
       return;
     }
     state.current = state.queue.pop();
-    state.hasAnswered = false;
     el.nextBtn.disabled = true;
     renderCard();
     updateStats();
   }
+  
+  function extraCardsFinder(questionText){
+	  const pattern = /(OP|EB|ST|P|PRB)\d{2}-\d{3}/gi;
+	  const matches = questionText.match(pattern) || [];
+	  console.log(matches);
+	  return Array.from(new Set(matches));
+  }
+  
+  function openLightbox(src) {
+	  const overlay = document.createElement("div");
+	  overlay.className = "lightbox";
+
+	  const img = document.createElement("img");
+	  img.src = src;
+	  overlay.appendChild(img);
+
+	  overlay.addEventListener("click", () => overlay.remove());
+	  document.addEventListener("keydown", function esc(ev) {
+	  if (ev.key === "Escape") {
+		overlay.remove();
+		document.removeEventListener("keydown", esc);
+		}
+	});
+
+	document.body.appendChild(overlay);
+  }
+
 
   function renderCard() {
     const e = state.current;
-    const cardIdLabel = e.cardId && e.cardId !== "General"
+    const isCard = e.cardId && e.cardId !== "General";
+    const cardIdLabel = isCard
       ? `${e.cardId}${e.cardName ? " — " + e.cardName : ""}`
       : "General Rules";
 
@@ -139,14 +166,37 @@
 
     const meta = document.createElement("div");
     meta.className = "card-meta";
-    const cardLinkHtml = e.cardId && e.cardId !== "General"
+    const cardLinkHtml = isCard
       ? `<a class="card-id" href="https://onepiece.limitlesstcg.com/cards/${encodeURIComponent(e.cardId)}" target="_blank" rel="noopener" title="View this card on Limitless TCG">${escapeHtml(cardIdLabel)}</a>`
       : `<span class="card-id">${escapeHtml(cardIdLabel)}</span>`;
     meta.innerHTML = `
       ${cardLinkHtml}
       <span class="card-category">${escapeHtml(e.category || "")}</span>`;
     card.appendChild(meta);
-
+	
+	const cardDisplay = document.createElement("div");
+	cardDisplay.className = "card-display";
+	const cardSetCode = e.cardId.slice(0,-4)
+	const questionCardPath = `/Cards/${cardSetCode}/${e.cardId}.png`;
+	const questionCard = document.createElement("img");
+	questionCard.src = questionCardPath;
+	questionCard.addEventListener("click", () => openLightbox(questionCard.src));
+	cardDisplay.appendChild(questionCard);
+	
+	const questionExtraCardList = extraCardsFinder(e.question);
+	questionExtraCardList.forEach(set =>{
+		if (set.toUpperCase() != e.cardId.toUpperCase()){
+			const setImg = document.createElement("img");
+			setImg.src = `/Cards/${set.slice(0,-4)}/${set}.png`;
+			setImg.addEventListener("click", () => openLightbox(setImg.src));
+			cardDisplay.appendChild(setImg);
+		}
+	});
+	
+	if (isCard){
+		card.appendChild(cardDisplay);	
+	}
+	
     const q = document.createElement("p");
     q.className = "card-question";
     q.textContent = e.question;
@@ -165,6 +215,7 @@
       btn.type = "button";
       btn.className = e.type === "binary" ? "tf-btn" : "mc-btn";
       btn.textContent = opt.text;
+      btn.dataset.correct = opt.correct;
       btn.addEventListener("click", () => handleAnswer(opt.correct, btn, optionsWrap));
       optionsWrap.appendChild(btn);
     });
@@ -184,14 +235,11 @@
   }
 
   function handleAnswer(isCorrect, pickedBtn, wrap) {
-    if (state.hasAnswered) return;
-    state.hasAnswered = true;
-
     Array.from(wrap.children).forEach(btn => {
       btn.disabled = true;
       if (btn === pickedBtn) {
         btn.classList.add(isCorrect ? "is-correct" : "is-wrong");
-      } else if (btn.textContent === correctText(state.current)) {
+      } else if (btn.dataset.correct === "true") {
         btn.classList.add("is-correct");
       } else {
         btn.classList.add("is-dim");
@@ -211,13 +259,7 @@
     updateStats();
   }
 
-  function correctText(entry) {
-    const found = entry.answers.find(a => a.correct);
-    return found ? found.text : "";
-  }
-
   el.nextBtn.addEventListener("click", () => {
-    if (!state.hasAnswered) return;
     nextCard();
   });
 
